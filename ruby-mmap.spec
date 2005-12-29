@@ -9,8 +9,9 @@ Group:		Development/Libraries
 Source0:	ftp://moulon.inra.fr/pub/ruby/mmap.tar.gz
 # Source0-md5:	79cbb830ee6f76461f8875b05482ae5c
 URL:		http://moulon.inra.fr/ruby/mmap.html
-BuildRequires:	rpmbuild(macros) >= 1.263
+BuildRequires:	rpmbuild(macros) >= 1.277
 BuildRequires:	ruby-modules
+%ruby_mod_ver_requires_eq
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
