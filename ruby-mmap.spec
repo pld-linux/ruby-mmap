@@ -1,6 +1,6 @@
 # TODO: optflags
 Summary:	Ruby mmap Library
-Summary(pl.UTF-8):   Biblioteka mmap dla języka Ruby
+Summary(pl.UTF-8):	Biblioteka mmap dla języka Ruby
 Name:		ruby-mmap
 Version:	0.2.6
 Release:	2
