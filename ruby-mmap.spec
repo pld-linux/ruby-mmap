@@ -1,6 +1,6 @@
 # TODO: optflags
 Summary:	Ruby mmap Library
-Summary(pl):	Biblioteka mmap dla jêzyka Ruby
+Summary(pl.UTF-8):   Biblioteka mmap dla jÄ™zyka Ruby
 Name:		ruby-mmap
 Version:	0.2.6
 Release:	2
@@ -17,8 +17,8 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 Ruby mmap Library.
 
-%description -l pl
-Biblioteka mmap dla jêzyka Ruby.
+%description -l pl.UTF-8
+Biblioteka mmap dla jÄ™zyka Ruby.
 
 %prep
 %setup -q -n mmap-%{version}
